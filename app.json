@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "ClimeTracker",
+    "slug": "ClimeTracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/appLogo.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/appLogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/appLogo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.pantheepatel.ClimeTracker"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/appLogo.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "60d39573-d116-4de9-96cb-c95e3252ab00"
+      }
+    }
+  }
+}
