@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "3045770169",
+    "project_id": "climetracker-218b4",
+    "storage_bucket": "climetracker-218b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3045770169:android:9e1a4228ad06786defac68",
+        "android_client_info": {
+          "package_name": "com.pantheepatel.ClimeTracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWvFKrxW5Q7-DRgZMs-0k76mxXTmMomhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

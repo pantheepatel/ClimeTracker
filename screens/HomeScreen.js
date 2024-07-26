@@ -72,10 +72,10 @@ const HomeScreen = ({ navigation }) => {
     useFocusEffect(useCallback(() => {
         const data = getData('data');
         data.then((data) => {
-            if (data.temp !== temp) setTemp(data.temp);
-            if (data.wind !== wind) setWind(data.wind);
-            if (data.pressure !== pressure) setPressure(data.pressure);
-            if (data.visibility !== visibility) setVisibility(data.visibility);
+            if (data?.temp !== temp) setTemp(data?.temp);
+            if (data?.wind !== wind) setWind(data?.wind);
+            if (data?.pressure !== pressure) setPressure(data?.pressure);
+            if (data?.visibility !== visibility) setVisibility(data?.visibility);
         })
         // console.log('Data:', data.then((data) => console.log(data)));
     }, []));
