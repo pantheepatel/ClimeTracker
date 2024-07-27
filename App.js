@@ -43,52 +43,52 @@ const App = () => {
             });
             return unsubscribe;
         }, []);
-        return (
-            <NavigationContainer independent={true}>
-                <Stack.Navigator>
-                    <Stack.Screen
-                        name="Home"
-                        component={HomeScreen}
-                        options={{ headerShown: false }}
-                    />
-                    <Stack.Screen
-                        name="Settings"
-                        component={SettingsScreen}
-                        options={{
-                            headerTransparent: false,
-                            headerStyle: {
-                                backgroundColor: '#141414',
-                            },
-                            headerTintColor: 'white',
-                            contentStyle: {
-                                backgroundColor: '#141414',
-                                paddingVertical: '5%',
-                                paddingHorizontal: '4%',
-                            },
-                            animation: 'ios',
-                            animationDuration: '500',
-                        }} />
-                    <Stack.Screen
-                        name="Notifications"
-                        component={NotificationsScreen}
-                        options={{
-                            headerTransparent: false,
-                            headerStyle: {
-                                backgroundColor: '#141414',
-                            },
-                            headerTintColor: 'white',
-                            contentStyle: {
-                                backgroundColor: '#141414',
-                                paddingVertical: '5%',
-                                paddingHorizontal: '4%',
-                            },
-                            animation: 'ios',
-                            animationDuration: '500',
-                        }} />
-                </Stack.Navigator>
-            </NavigationContainer>
-        );
     };
+    return (
+        <NavigationContainer independent={true}>
+            <Stack.Navigator>
+                <Stack.Screen
+                    name="Home"
+                    component={HomeScreen}
+                    options={{ headerShown: false }}
+                />
+                <Stack.Screen
+                    name="Settings"
+                    component={SettingsScreen}
+                    options={{
+                        headerTransparent: false,
+                        headerStyle: {
+                            backgroundColor: '#141414',
+                        },
+                        headerTintColor: 'white',
+                        contentStyle: {
+                            backgroundColor: '#141414',
+                            paddingVertical: '5%',
+                            paddingHorizontal: '4%',
+                        },
+                        animation: 'ios',
+                        animationDuration: '500',
+                    }} />
+                <Stack.Screen
+                    name="Notifications"
+                    component={NotificationsScreen}
+                    options={{
+                        headerTransparent: false,
+                        headerStyle: {
+                            backgroundColor: '#141414',
+                        },
+                        headerTintColor: 'white',
+                        contentStyle: {
+                            backgroundColor: '#141414',
+                            paddingVertical: '5%',
+                            paddingHorizontal: '4%',
+                        },
+                        animation: 'ios',
+                        animationDuration: '500',
+                    }} />
+            </Stack.Navigator>
+        </NavigationContainer>
+    );
 };
 
 export default App;
