@@ -12,6 +12,11 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "updates": {
+      "fallbackToCacheTimeout": 30000,
+      "checkAutomatically": "ON_LOAD",
+      "url": "https://u.expo.dev/60d39573-d116-4de9-96cb-c95e3252ab00"
+    },
     "ios": {
       "supportsTablet": true
     },
@@ -21,7 +26,9 @@
         "foregroundImage": "./assets/images/appLogo4.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.pantheepatel.ClimeTracker"
+      "package": "com.pantheepatel.ClimeTracker",
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"],
+      "versionCode": 1
     },
     "web": {
       "bundler": "metro",
